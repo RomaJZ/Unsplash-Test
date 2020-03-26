@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428B4791242802B10048DA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B4790242802B10048DA07 /* AppDelegate.swift */; };
+		428B4793242802B10048DA07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B4792242802B10048DA07 /* SceneDelegate.swift */; };
+		428B4795242802B10048DA07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B4794242802B10048DA07 /* ViewController.swift */; };
+		428B479A242802B30048DA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428B4799242802B30048DA07 /* Assets.xcassets */; };
+		428B47A5242802EC0048DA07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B47A4242802EC0048DA07 /* SearchViewController.swift */; };
+		428B47A82428031A0048DA07 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B47A72428031A0048DA07 /* PhotoCell.swift */; };
+		428B47AA242803460048DA07 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B47A9242803460048DA07 /* PhotoViewController.swift */; };
+		428B47AC242803CE0048DA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428B47AB242803CD0048DA07 /* Main.storyboard */; };
+		428B47AE242803D60048DA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428B47AD242803D60048DA07 /* LaunchScreen.storyboard */; };
+		42A8A9AE242807E800E9E118 /* UranTestNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A8A9AC242807C900E9E118 /* UranTestNetworkKit.framework */; };
+		42A8A9AF242807E800E9E118 /* UranTestNetworkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A8A9AC242807C900E9E118 /* UranTestNetworkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A8A9AB242807C900E9E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A8A9A7242807C900E9E118 /* UranTestNetworkKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 428B47652427FEC70048DA07;
+			remoteInfo = UranTestNetworkKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42A8A9B0242807E800E9E118 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42A8A9AF242807E800E9E118 /* UranTestNetworkKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		428B478D242802B10048DA07 /* UranTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UranTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428B4790242802B10048DA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428B4792242802B10048DA07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		428B4794242802B10048DA07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428B4799242802B30048DA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428B479E242802B30048DA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428B47A4242802EC0048DA07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		428B47A72428031A0048DA07 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		428B47A9242803460048DA07 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		428B47AB242803CD0048DA07 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		428B47AD242803D60048DA07 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A8A9A7242807C900E9E118 /* UranTestNetworkKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UranTestNetworkKit.xcodeproj; path = ../UranTestNetworkKit/UranTestNetworkKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428B478A242802B10048DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A8A9AE242807E800E9E118 /* UranTestNetworkKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428B4784242802B10048DA07 = {
+			isa = PBXGroup;
+			children = (
+				42A8A9A7242807C900E9E118 /* UranTestNetworkKit.xcodeproj */,
+				428B478F242802B10048DA07 /* UranTest */,
+				428B478E242802B10048DA07 /* Products */,
+				42A8A9AD242807E800E9E118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		428B478E242802B10048DA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428B478D242802B10048DA07 /* UranTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428B478F242802B10048DA07 /* UranTest */ = {
+			isa = PBXGroup;
+			children = (
+				428B4790242802B10048DA07 /* AppDelegate.swift */,
+				428B4792242802B10048DA07 /* SceneDelegate.swift */,
+				428B4794242802B10048DA07 /* ViewController.swift */,
+				428B47A4242802EC0048DA07 /* SearchViewController.swift */,
+				428B47A9242803460048DA07 /* PhotoViewController.swift */,
+				428B47A6242803060048DA07 /* VIews */,
+				428B47AB242803CD0048DA07 /* Main.storyboard */,
+				428B47AD242803D60048DA07 /* LaunchScreen.storyboard */,
+				428B4799242802B30048DA07 /* Assets.xcassets */,
+				428B479E242802B30048DA07 /* Info.plist */,
+			);
+			path = UranTest;
+			sourceTree = "<group>";
+		};
+		428B47A6242803060048DA07 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				428B47A72428031A0048DA07 /* PhotoCell.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		42A8A9A8242807C900E9E118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A8A9AC242807C900E9E118 /* UranTestNetworkKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A8A9AD242807E800E9E118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428B478C242802B10048DA07 /* UranTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428B47A1242802B30048DA07 /* Build configuration list for PBXNativeTarget "UranTest" */;
+			buildPhases = (
+				428B4789242802B10048DA07 /* Sources */,
+				428B478A242802B10048DA07 /* Frameworks */,
+				428B478B242802B10048DA07 /* Resources */,
+				42A8A9B0242807E800E9E118 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UranTest;
+			productName = UranTest;
+			productReference = 428B478D242802B10048DA07 /* UranTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428B4785242802B10048DA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Roma&Co";
+				TargetAttributes = {
+					428B478C242802B10048DA07 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 428B4788242802B10048DA07 /* Build configuration list for PBXProject "UranTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428B4784242802B10048DA07;
+			productRefGroup = 428B478E242802B10048DA07 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42A8A9A8242807C900E9E118 /* Products */;
+					ProjectRef = 42A8A9A7242807C900E9E118 /* UranTestNetworkKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				428B478C242802B10048DA07 /* UranTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		42A8A9AC242807C900E9E118 /* UranTestNetworkKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UranTestNetworkKit.framework;
+			remoteRef = 42A8A9AB242807C900E9E118 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428B478B242802B10048DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428B47AE242803D60048DA07 /* LaunchScreen.storyboard in Resources */,
+				428B479A242802B30048DA07 /* Assets.xcassets in Resources */,
+				428B47AC242803CE0048DA07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428B4789242802B10048DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428B4795242802B10048DA07 /* ViewController.swift in Sources */,
+				428B47A82428031A0048DA07 /* PhotoCell.swift in Sources */,
+				428B4791242802B10048DA07 /* AppDelegate.swift in Sources */,
+				428B47A5242802EC0048DA07 /* SearchViewController.swift in Sources */,
+				428B4793242802B10048DA07 /* SceneDelegate.swift in Sources */,
+				428B47AA242803460048DA07 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		428B479F242802B30048DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428B47A0242802B30048DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428B47A2242802B30048DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QLK5LJV6W;
+				INFOPLIST_FILE = UranTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roma-Co.UranTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428B47A3242802B30048DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QLK5LJV6W;
+				INFOPLIST_FILE = UranTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roma-Co.UranTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428B4788242802B10048DA07 /* Build configuration list for PBXProject "UranTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428B479F242802B30048DA07 /* Debug */,
+				428B47A0242802B30048DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428B47A1242802B30048DA07 /* Build configuration list for PBXNativeTarget "UranTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428B47A2242802B30048DA07 /* Debug */,
+				428B47A3242802B30048DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428B4785242802B10048DA07 /* Project object */;
+}
